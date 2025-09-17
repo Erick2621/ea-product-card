@@ -11,21 +11,16 @@ const useShoppingCart = () => {
 
     setShoppingCart(oldShoppingCart => {
 
-      const productInCart = oldShoppingCart[product.id];
+      console.log({ count });
 
-      const newCount = (productInCart?.count || 0) + count;
-
-      if (newCount > 0) {
-        return {
-          ...oldShoppingCart,
-          [product.id]: { ...product, count: newCount } // 👈 nueva copia, no mutación
-        };
+      if (count === 0) {
+        const { [product.id]: toDelete, ...rest } = oldShoppingCart;
+        return rest
       }
 
-      // Borrar el producto
-      const { [product.id]: toDelete, ...rest } = oldShoppingCart;
       return {
-        ...rest
+        ...oldShoppingCart,
+        [product.id]: { ...product, count }
       }
     })
   }
