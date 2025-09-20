@@ -9,6 +9,12 @@ export default defineConfig(
         dts: true,
         format: ['cjs', 'esm'],
         tsconfig: './tsconfig.app.json', // 👈 aquí la magia
+        loader: {
+            '.jpg': 'file',   // convierte los imports de jpg en URLs con hash
+            '.png': 'file',   // idem para PNG
+            '.svg': 'file',   // idem para SVG
+            '.css': 'css'     // permite importar CSS modules
+        }
     },
 
 )
