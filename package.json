@@ -1,7 +1,7 @@
 {
   "name": "es-product-card",
   "author": "Erick Espinola",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "description": "Una librería de componentes React",
   "type": "module",
