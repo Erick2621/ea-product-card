@@ -6,7 +6,7 @@ Este es un paquete de pruebas de despliegue en NPM
 
 ## Ejemplo
 ```
-import {ProductCard, ProductImage, ProductTitle, ProductButtons} from ea-product-card
+import {ProductCard, ProductImage, ProductTitle, ProductButtons} from "es-product-card"
 ```
 
 ```
