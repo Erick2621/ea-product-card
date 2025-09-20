@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductImage > debe de mostrar el componente  con la imagen del producto 1`] = `
+{
+  "props": {
+    "children": [
+      {
+        "props": {
+          "alt": "Product Image",
+          "className": "_productImg_3e9733 undefined",
+          "src": "./coffee-mug.png",
+        },
+        "type": "img",
+      },
+    ],
+    "className": "_productCard_3e9733 undefined",
+  },
+  "type": "div",
+}
+`;
+
+exports[`ProductImage > debe de mostrar el componente correctamente con la imagen personalizada 1`] = `
+{
+  "props": {
+    "alt": "Product Image",
+    "className": "_productImg_3e9733 undefined",
+    "src": "https://hola.jpg",
+  },
+  "type": "img",
+}
+`;

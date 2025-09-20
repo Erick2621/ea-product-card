@@ -1,0 +1,123 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductCard > debe de incrementar el contador 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        "Product Card",
+      ],
+      "props": {
+        "children": [
+          "Product Card",
+        ],
+        "className": undefined,
+      },
+      "type": "h1",
+    },
+    {
+      "children": [
+        "1",
+      ],
+      "props": {
+        "children": [
+          "1",
+        ],
+        "className": undefined,
+      },
+      "type": "span",
+    },
+    {
+      "children": [
+        "Increment",
+      ],
+      "props": {
+        "children": [
+          "Increment",
+        ],
+        "className": undefined,
+      },
+      "type": "button",
+    },
+  ],
+  "props": {
+    "children": [
+      {
+        "children": [
+          "Product Card",
+        ],
+        "props": {
+          "children": [
+            "Product Card",
+          ],
+          "className": undefined,
+        },
+        "type": "h1",
+      },
+      {
+        "children": [
+          "1",
+        ],
+        "props": {
+          "children": [
+            "1",
+          ],
+          "className": undefined,
+        },
+        "type": "span",
+      },
+      {
+        "children": [
+          "Increment",
+        ],
+        "props": {
+          "children": [
+            "Increment",
+          ],
+          "className": undefined,
+        },
+        "type": "button",
+      },
+    ],
+    "className": "_productCard_3e9733 undefined",
+  },
+  "type": "div",
+}
+`;
+
+exports[`ProductCard > debe de mostrar el componente correctamente 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        "Product Card",
+      ],
+      "props": {
+        "children": [
+          "Product Card",
+        ],
+        "className": undefined,
+      },
+      "type": "h1",
+    },
+  ],
+  "props": {
+    "children": [
+      {
+        "children": [
+          "Product Card",
+        ],
+        "props": {
+          "children": [
+            "Product Card",
+          ],
+          "className": undefined,
+        },
+        "type": "h1",
+      },
+    ],
+    "className": "_productCard_3e9733 undefined",
+  },
+  "type": "div",
+}
+`;

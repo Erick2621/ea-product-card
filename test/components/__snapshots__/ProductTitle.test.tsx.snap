@@ -1,0 +1,36 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductTitle > debe de mostrar el componente  con el nombre del producto 1`] = `
+{
+  "props": {
+    "children": [
+      {
+        "props": {
+          "children": [
+            "Coffee Mug - Sin Imagen",
+          ],
+          "className": "_productDescription_3e9733 undefined",
+          "style": undefined,
+        },
+        "type": "span",
+      },
+    ],
+    "className": "_productCard_3e9733 undefined",
+    "style": undefined,
+  },
+  "type": "div",
+}
+`;
+
+exports[`ProductTitle > debe de mostrar el componente correctamente con el titulo personalizado 1`] = `
+{
+  "props": {
+    "children": [
+      "Custom Product",
+    ],
+    "className": "_productDescription_3e9733 custom-class",
+    "style": undefined,
+  },
+  "type": "span",
+}
+`;
