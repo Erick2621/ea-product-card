@@ -9,6 +9,5 @@ export default defineConfig({
     splitting: false,            // Para librerías, normalmente false
     tsconfig: 'tsconfig.app.json',
     outDir: 'dist',              // Carpeta de salida
-    minify: false,               // Opcional
-    legacyOutput: true,         // Organiza los archivos por formato
+    minify: true,
 })
