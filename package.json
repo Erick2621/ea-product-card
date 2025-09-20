@@ -5,6 +5,9 @@
   "license": "MIT",
   "description": "Una librería de componentes React",
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "src"
@@ -70,10 +73,5 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
       "\\.(css|less|scss|sass)$": "identity-obj-proxy"
     }
-  },
-  "dependencies": {
-    "es-product-card": "^1.0.5",
-    "react": "19",
-    "react-dom": "19"
   }
 }
