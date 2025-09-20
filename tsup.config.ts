@@ -6,11 +6,8 @@ export default defineConfig(
         splitting: false,
         sourcemap: true,
         clean: true,
-        dts: {
-            resolve: true,
-            entry: 'src/index.ts',
-        },
-        format: ['esm', 'cjs'],
+        dts: true,
+        format: ['cjs', 'esm'],
         tsconfig: './tsconfig.app.json', // 👈 aquí la magia
     },
 
